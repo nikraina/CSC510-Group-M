@@ -11,6 +11,8 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity
             CENT_LAT = 35.767694,
             CENT_LNG = -78.676168;
     private GoogleApiClient mLocationClient;
+    private LocationListener mListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -133,6 +136,24 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onConnected(Bundle bundle) {
         Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
+
+        mListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                Toast.makeText(MainActivity.this,
+                        "Location Changed: " + location.getLatitude() + ", " +
+                                location.getLongitude(), Toast.LENGTH_SHORT).show();
+                gotoLocation(location.getLatitude(), location.getLongitude(), 15);
+            }
+        };
+
+        LocationRequest request = LocationRequest.create();
+        request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        request.setInterval(5000);
+        request.setFastestInterval(1000);
+        LocationServices.FusedLocationApi.requestLocationUpdates(
+                mLocationClient, request, mListener
+        );
     }
 
     @Override
@@ -143,6 +164,15 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
 
+    }
+
+    @Override
+    //this is overridden to pause the continuous location listener when the app is not being used
+    protected void onPause() {
+        super.onPause();
+        LocationServices.FusedLocationApi.removeLocationUpdates(
+                mLocationClient, mListener
+        );
     }
 
 }
