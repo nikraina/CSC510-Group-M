@@ -314,6 +314,11 @@
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
+    <!-- From: file:/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="current_location">Current Location</string>
+    <!-- From: file:/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <eat-comment/>
     <string name="decline">Decline</string>
     <!-- From: file:/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/values/strings.xml -->
     <eat-comment/>

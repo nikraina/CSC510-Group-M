@@ -2014,7 +2014,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0054;
         public static final int action_mode_bar_stub=0x7f0d0053;
         public static final int action_mode_close_button=0x7f0d003c;
-        public static final int action_settings=0x7f0d0081;
+        public static final int action_settings=0x7f0d0082;
         public static final int activity_chooser_view_content=0x7f0d003d;
         public static final int adjust_height=0x7f0d0018;
         public static final int adjust_width=0x7f0d0019;
@@ -2035,6 +2035,7 @@ containing a value of this type.
         public static final int classic=0x7f0d0037;
         public static final int collapseActionView=0x7f0d001e;
         public static final int contentPanel=0x7f0d0048;
+        public static final int currentLocation=0x7f0d0081;
         public static final int custom=0x7f0d004c;
         public static final int customPanel=0x7f0d004b;
         public static final int decor_content_parent=0x7f0d0055;
@@ -2251,8 +2252,9 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f07002c;
         public static final int create_calendar_message=0x7f070044;
         public static final int create_calendar_title=0x7f070045;
-        public static final int decline=0x7f070046;
-        public static final int hello_world=0x7f070047;
+        public static final int current_location=0x7f070046;
+        public static final int decline=0x7f070047;
+        public static final int hello_world=0x7f070048;
         public static final int mr_media_route_button_content_description=0x7f07002d;
         public static final int mr_media_route_chooser_searching=0x7f07002e;
         public static final int mr_media_route_chooser_title=0x7f07002f;
@@ -2263,9 +2265,9 @@ containing a value of this type.
         public static final int mr_media_route_controller_stop=0x7f070034;
         public static final int mr_system_route_name=0x7f070035;
         public static final int mr_user_route_category_name=0x7f070036;
-        public static final int status_bar_notification_info_overflow=0x7f070048;
-        public static final int store_picture_message=0x7f070049;
-        public static final int store_picture_title=0x7f07004a;
+        public static final int status_bar_notification_info_overflow=0x7f070049;
+        public static final int store_picture_message=0x7f07004a;
+        public static final int store_picture_title=0x7f07004b;
         public static final int wallet_buy_button_place_holder=0x7f070037;
     }
     public static final class style {
