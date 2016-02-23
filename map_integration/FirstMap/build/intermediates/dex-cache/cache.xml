@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-f1d7e4f2b2f74a236c3fe7bfea1f7e03c3469d6f.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-662a2d30c857fe2f5d31b8103945640c78f6095b.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-e7bdc837305d88948a79f47a9e09d4c760976681.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-d4dacc36ae11c94adefac27957953e01eb5aa53d.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-df36bc8bc3a3fe6006edfea689d47e955ea36cc8.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-693459b43df43c57b7a01fc672eb6f6d969ef92a.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-223c177adf7da772381c51fd1bb21eaf33d8acfa.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-a175f10441cbdde047d2c8f7d0269accbba5f941.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-28f5d5eb123140e7959ddebb29984cdcbe428f35.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-8dd095eb5ee19c41ad21bddf0c1e3d460b166915.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-b0d5bf6ad7488274531b9372d45e54785f3f7149.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-eca0de163d9faf141d36a2856a2d65152f16140b.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-cdb6e3a804d071ad18648d298167c9287ff77c82.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-d3557245db3c79ead1da8301fffe5ec6e55d9280.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-9be1cc42f4bcb4cc7880e800b15d9269dd97936e.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-2e247e65119424670b409dcf5a91aa7b9984398c.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-fdb7b735967b239f9be8f95ccbe6782ca9c0b3de.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-75b72fa9fcf044f198fa314bdf3ffe417fa771a6.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-027b48264255167469e48b0a53a7743bec20eaaa.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-ba4316cca695bcd3da1913ef12c7ae04bed7f5da.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-47ef7edc13c8c45175c83b4c2d7f5935672b8817.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-a18d2db5ac5b39d1aede034802e3b96b39eb9876.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-375fb7a0ca54b117f530bd252a9c1d3ca0c52ca4.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-3d71a0562d24f8683ca4ec4458a9b5af84913859.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-59df038301d78d46b3de1edea20a02a1a621cd1d.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch02/02_05/FirstMap/app/build/intermediates/pre-dexed/debug/classes-5651fdf1119e6b238f7644fb67eae78598c2ab03.jar" />
+    </item>
+
+</items>
