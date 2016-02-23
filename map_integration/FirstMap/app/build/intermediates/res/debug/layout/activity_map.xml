@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     map:cameraTargetLat = "35.767694"
     map:cameraTargetLng = "-78.676168"
-    map:cameraZoom = "15"
+    map:cameraZoom = "12"
+    map:uiRotateGestures = "false"
+    map:uiTiltGestures = "false"
+    map:uiScrollGestures = "false"
+    map:uiZoomGestures = "false"
     />
-<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_02/InitialStateXML/app/src/main/res/layout/activity_map.xml -->
+<!-- From: file:/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/layout/activity_map.xml -->

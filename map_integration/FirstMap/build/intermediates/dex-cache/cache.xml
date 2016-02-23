@@ -2,186 +2,186 @@
 <items version="2" >
 
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-aa356b6e0041656f3c54a51eb118501e7d7e4033.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-18ee82c0d920469d5658504d8a89e508e45ce926.jar" />
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-512d051612cfc32ee3180b28446568bae4b398b4.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-a9284fd7d81f0510a3cafb68ef7faf18fd31bfa6.jar" />
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-47c43608d5ee4039c00f342d7c07f2ccd018b56b.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-29dadbdaf1fdb4a55ffb2231eeaa46319877c1dd.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-3d00c46cf979e315ff9933ab30059c9f5dcfda65.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-fbc3da34e3b78e60f2b590d7b9b24d278a3d1207.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-78908012c8c52adca0bfc7e28a1006b63a2b9643.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-51780b906aef3517d35d10a7b8751acbac473348.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-8102f51bc7fb5497a54d06b2f89acbcc472c6a64.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-25f55df533204742df877b33fd4b2cb7015f740f.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-c1e456925752ad3ba8f0b458f1048a1880f7b877.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-526e2e38572ed7a67d885a85185c2e68fc86a145.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-299b56515bffec6bb72bf60ee4820fb69b7def9a.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-eca0de163d9faf141d36a2856a2d65152f16140b.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-4cc9f852b0bdfcc5b521465fa9cb9a422cedb734.jar" />
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-17b643bfcd6da450db728a3c266e51f8447ec1a9.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-6adacc822cafbb62a7752c032bfe5318c9d694af.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-c27fb3b5c07e09e71851e677cf31661149e1c4c1.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-2d4e4237ac167fcb47053b18600c7961551ff50f.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-32cf4c5890f589c041a139d96f0da058543247b3.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-05382db1e6bc5688ab0f599386863d1e46a2508e.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-5ca3db6327320af1ff1a902f34f2e1bbda8874e1.jar" />
-    </item>
-    <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-0a562e16473b43b4cfaa32676ac49f2fea9151df.jar" />
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-a43b7861994b4b7b455439b0465a97149846f5a7.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-a4306932ce033c73068884235cbfd3a6e46becdf.jar" />
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-020dc2c0a3393bd23d8cd7fc9a87eae52ed5d4fb.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-294bfd4640105284ff2275e9ab649369c792ea79.jar" />
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-7ab8242225b3057c43af774991217752f495d6b7.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-d0a721aa4ef4456aadc98acaf369ca95efeff31d.jar" />
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-12ad728f90b1a530c1b7893e6925f9344ae40dbf.jar" />
     </item>
     <item
-        jar="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-ead1342ddd2b58e4536ecc2f591a3425975e130c.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-14bb3a754a5bb891a1c733cbdcb1f346e120cfe0.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-5be5fda13dcaaba3103ea1c4ecb7bc70a8c41738.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-fa6eb1682c90bddf325cd6e63b18d565eb5e2a23.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-22deeae33c07b5e6ff26e9b2afb7e094aaf9aa31.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-534f9fda3dd042de7fc0d2fede803ef0b24dec6f.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-296e9a682071cc4daa74213364cbbb65fbfde338.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-62026f2db9f17ced79e1b79072e2468cfd34b1a1.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-8593578f855d8f397b1227ee911fb22450ccce6c.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-b0ef0f4530a35b414d13f5b4388db9e9f73ef252.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-321f9e96c770f276cff500d186d843bcb1a5a6b9.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise Files/Ch03/03_02/InitialStateXML/app/build/intermediates/pre-dexed/debug/classes-c8497b060da3856abb8bcc4e223c40e2d345d2c2.jar" />
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-fd4fd56722bbe38a6e85e3ab58e2204a29755172.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-d42b11678140958cf021fc1b0c773f73679f3a13.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-1aba1e58d5b70133ec1860c415c424780d849f5b.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-67d7c4eccf7bd3c6e89ec8992ca6d7579a3461a0.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0764c26d39767610f4e280e38386dd28f83d11b1.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-c7bb1a72ffacb0624ab83465f31f826df4733829.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-310ee62bf215823dcd2c7621b471a09c499e9c5e.jar" />
+    </item>
+    <item
+        jar="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/pre-dexed/debug/classes-21b536730bc391ae25caff2e36db033d4f003b20.jar" />
     </item>
 
 </items>

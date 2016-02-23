@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 		INJECTED from AndroidManifest.xml:0:0
@@ -10,6 +8,8 @@ ADDED from AndroidManifest.xml:2:1
 	android:versionName
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 	android:versionCode
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
@@ -147,10 +147,10 @@ ADDED from AndroidManifest.xml:21:17
 		ADDED from AndroidManifest.xml:21:27
 meta-data#com.google.android.maps.v2.API_KEY
 ADDED from AndroidManifest.xml:25:9
-	android:name
-		ADDED from AndroidManifest.xml:25:20
 	android:value
 		ADDED from AndroidManifest.xml:26:13
+	android:name
+		ADDED from AndroidManifest.xml:25:20
 meta-data#com.google.android.gms.version
 ADDED from AndroidManifest.xml:28:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
@@ -180,10 +180,10 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
-	android:name
-		ADDED from AndroidManifest.xml:28:20
 	android:value
 		ADDED from AndroidManifest.xml:29:13
+	android:name
+		ADDED from AndroidManifest.xml:28:20
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.2.0:20:5
@@ -327,10 +327,10 @@ ADDED from com.google.android.gms:play-services-maps:7.5.0:24:5
 MERGED from com.google.android.gms:play-services-maps:7.5.0:24:5
 MERGED from com.google.android.gms:play-services-maps:7.5.0:24:5
 MERGED from com.google.android.gms:play-services-maps:7.5.0:24:5
-	android:required
-		ADDED from com.google.android.gms:play-services-maps:7.5.0:26:8
 	android:glEsVersion
 		ADDED from com.google.android.gms:play-services-maps:7.5.0:25:8
+	android:required
+		ADDED from com.google.android.gms:play-services-maps:7.5.0:26:8
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from AndroidManifest.xml:2:1 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.GET_ACCOUNTS
@@ -343,10 +343,10 @@ ADDED from com.google.android.gms:play-services-wallet:7.5.0:22:5
 		ADDED from com.google.android.gms:play-services-wallet:7.5.0:22:22
 meta-data#com.google.android.gms.wallet.api.enabled
 ADDED from com.google.android.gms:play-services-wallet:7.5.0:25:9
-	android:name
-		ADDED from com.google.android.gms:play-services-wallet:7.5.0:26:13
 	android:value
 		ADDED from com.google.android.gms:play-services-wallet:7.5.0:27:13
+	android:name
+		ADDED from com.google.android.gms:play-services-wallet:7.5.0:26:13
 receiver#com.google.android.gms.wallet.EnableWalletOptimizationReceiver
 ADDED from com.google.android.gms:play-services-wallet:7.5.0:28:9
 	android:exported
