@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_01/MapObject/app/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_02/InitialStateXML/app/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>

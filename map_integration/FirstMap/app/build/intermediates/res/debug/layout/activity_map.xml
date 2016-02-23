@@ -4,5 +4,9 @@
     android:id="@+id/map"
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
-<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_01/MapObject/app/src/main/res/layout/activity_map.xml -->
+    android:layout_height="match_parent"
+    map:cameraTargetLat = "35.767694"
+    map:cameraTargetLng = "-78.676168"
+    map:cameraZoom = "15"
+    />
+<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_02/InitialStateXML/app/src/main/res/layout/activity_map.xml -->

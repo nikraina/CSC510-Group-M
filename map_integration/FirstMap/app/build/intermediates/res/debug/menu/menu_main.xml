@@ -4,4 +4,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_01/MapObject/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_02/InitialStateXML/app/src/main/res/menu/menu_main.xml -->

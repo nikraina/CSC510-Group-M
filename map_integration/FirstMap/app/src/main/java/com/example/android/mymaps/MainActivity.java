@@ -24,11 +24,10 @@ public class MainActivity extends AppCompatActivity {
         if (servicesOK()) {
             setContentView(R.layout.activity_map);
 
-            if(initMap()){
-                Toast.makeText(this, "Ready to map your Parking Spot!", Toast.LENGTH_SHORT).show();
-            }
-            else {
-                Toast.makeText(this, "Map not connected", Toast.LENGTH_SHORT).show();
+            if (initMap()) {
+                Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
             }
 
         } else {
@@ -75,12 +74,13 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    private boolean initMap(){
-        if(mMap == null){
-            SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+    private boolean initMap() {
+        if (mMap == null) {
+            SupportMapFragment mapFragment =
+                    (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
             mMap = mapFragment.getMap();
         }
-        return (mMap!=null);
+        return (mMap != null);
     }
 
 }
