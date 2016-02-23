@@ -1,27 +1,34 @@
 package com.example.android.mymaps;
 
 import android.app.Dialog;
-import android.support.v7.app.AppCompatActivity;
+import android.location.Location;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+    implements GoogleApiClient.ConnectionCallbacks,
+        GoogleApiClient.OnConnectionFailedListener
+{
 
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
             CENT_LAT = 35.767694,
             CENT_LNG = -78.676168;
+    private GoogleApiClient mLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +38,17 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_map);
 
             if (initMap()) {
-                Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
                 gotoLocation(CENT_LAT, CENT_LNG, 14);
 
-                mMap.setMyLocationEnabled(true);
+                mLocationClient = new GoogleApiClient.Builder(this)
+                        .addApi(LocationServices.API)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .build();
+
+                mLocationClient.connect();
+
+//                mMap.setMyLocationEnabled(true);
             } else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
             }
@@ -96,6 +110,39 @@ public class MainActivity extends AppCompatActivity {
         LatLng latlng = new LatLng(lat, lng);
         CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latlng, zoom);
         mMap.moveCamera(update);
+    }
+
+    public void showCurrentLocation(MenuItem item) {
+        Location currentLocation = LocationServices.FusedLocationApi
+                .getLastLocation(mLocationClient);
+        if (currentLocation == null) {
+            Toast.makeText(this, "Couldn't connect!", Toast.LENGTH_SHORT).show();
+        } else {
+            LatLng latLng = new LatLng(
+                    currentLocation.getLatitude(),
+                    currentLocation.getLongitude()
+            );
+            CameraUpdate update = CameraUpdateFactory.newLatLngZoom(
+                    latLng, 15
+            );
+            mMap.animateCamera(update);
+        }
+
+    }
+
+    @Override
+    public void onConnected(Bundle bundle) {
+        Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+
     }
 
 }

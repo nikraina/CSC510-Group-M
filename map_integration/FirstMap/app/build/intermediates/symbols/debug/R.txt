@@ -568,7 +568,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0054
 int id action_mode_bar_stub 0x7f0d0053
 int id action_mode_close_button 0x7f0d003c
-int id action_settings 0x7f0d0081
+int id action_settings 0x7f0d0082
 int id activity_chooser_view_content 0x7f0d003d
 int id adjust_height 0x7f0d0018
 int id adjust_width 0x7f0d0019
@@ -589,6 +589,7 @@ int id chronometer 0x7f0d007b
 int id classic 0x7f0d0037
 int id collapseActionView 0x7f0d001e
 int id contentPanel 0x7f0d0048
+int id currentLocation 0x7f0d0081
 int id custom 0x7f0d004c
 int id customPanel 0x7f0d004b
 int id decor_content_parent 0x7f0d0055
@@ -793,8 +794,9 @@ int string common_signin_button_text 0x7f07002b
 int string common_signin_button_text_long 0x7f07002c
 int string create_calendar_message 0x7f070044
 int string create_calendar_title 0x7f070045
-int string decline 0x7f070046
-int string hello_world 0x7f070047
+int string current_location 0x7f070046
+int string decline 0x7f070047
+int string hello_world 0x7f070048
 int string mr_media_route_button_content_description 0x7f07002d
 int string mr_media_route_chooser_searching 0x7f07002e
 int string mr_media_route_chooser_title 0x7f07002f
@@ -805,9 +807,9 @@ int string mr_media_route_controller_settings_description 0x7f070033
 int string mr_media_route_controller_stop 0x7f070034
 int string mr_system_route_name 0x7f070035
 int string mr_user_route_category_name 0x7f070036
-int string status_bar_notification_info_overflow 0x7f070048
-int string store_picture_message 0x7f070049
-int string store_picture_title 0x7f07004a
+int string status_bar_notification_info_overflow 0x7f070049
+int string store_picture_message 0x7f07004a
+int string store_picture_title 0x7f07004b
 int string wallet_buy_button_place_holder 0x7f070037
 int style AlertDialog_AppCompat 0x7f090073
 int style AlertDialog_AppCompat_Light 0x7f090074
