@@ -9,4 +9,4 @@
     <item android:drawable="@drawable/cast_ic_notification_2" android:duration="500" />
     <item android:drawable="@drawable/cast_ic_notification_1" android:duration="500" />
 </animation-list>
-<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch02/02_05/FirstMap/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable/cast_ic_notification_connecting.xml -->
+<!-- From: file:/home/nikhil/Desktop/Android/Ex_Files_GoogleMaps_Android/Exercise%20Files/Ch03/03_01/MapObject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/res/drawable/cast_ic_notification_connecting.xml -->

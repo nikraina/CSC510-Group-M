@@ -10,6 +10,7 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.SupportMapFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,13 +20,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
 
         if (servicesOK()) {
             setContentView(R.layout.activity_map);
-            Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
-        }
-        else{
+
+            if(initMap()){
+                Toast.makeText(this, "Ready to map your Parking Spot!", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(this, "Map not connected", Toast.LENGTH_SHORT).show();
+            }
+
+        } else {
             setContentView(R.layout.activity_main);
         }
     }
@@ -67,6 +73,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return false;
+    }
+
+    private boolean initMap(){
+        if(mMap == null){
+            SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+            mMap = mapFragment.getMap();
+        }
+        return (mMap!=null);
     }
 
 }
