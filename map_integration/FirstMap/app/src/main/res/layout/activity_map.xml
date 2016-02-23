@@ -12,5 +12,4 @@
     map:uiTiltGestures = "false"
     map:uiScrollGestures = "false"
     map:uiZoomGestures = "false"
-    map:mapType = "satellite"
     />
