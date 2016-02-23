@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (initMap()) {
                 Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
-                gotoLocation(CENT_LAT, CENT_LNG, 12);
+                gotoLocation(CENT_LAT, CENT_LNG, 14);
             } else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
             }
