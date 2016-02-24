@@ -12,13 +12,14 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity
     implements GoogleApiClient.ConnectionCallbacks,
@@ -32,6 +33,8 @@ public class MainActivity extends AppCompatActivity
             CENT_LNG = -78.676168;
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
+
+    private Marker marker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,6 +116,13 @@ public class MainActivity extends AppCompatActivity
         LatLng latlng = new LatLng(lat, lng);
         CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latlng, zoom);
         mMap.moveCamera(update);
+
+        if(marker!=null) {
+            marker.remove();
+        }
+        MarkerOptions options = new MarkerOptions()
+                .position(latlng);
+        marker = mMap.addMarker(options);
     }
 
     public void showCurrentLocation(MenuItem item) {
@@ -129,6 +139,14 @@ public class MainActivity extends AppCompatActivity
                     latLng, 15
             );
             mMap.animateCamera(update);
+
+            if(marker!=null) {
+                marker.remove();
+            }
+
+            MarkerOptions options = new MarkerOptions()
+                    .position(latLng);
+            marker = mMap.addMarker(options);
         }
 
     }
@@ -137,7 +155,7 @@ public class MainActivity extends AppCompatActivity
     public void onConnected(Bundle bundle) {
         Toast.makeText(this, "Ready to map!", Toast.LENGTH_SHORT).show();
 
-        mListener = new LocationListener() {
+        /*mListener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
                 Toast.makeText(MainActivity.this,
@@ -153,7 +171,7 @@ public class MainActivity extends AppCompatActivity
         request.setFastestInterval(1000);
         LocationServices.FusedLocationApi.requestLocationUpdates(
                 mLocationClient, request, mListener
-        );
+        );*/
     }
 
     @Override
