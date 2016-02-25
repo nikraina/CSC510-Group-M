@@ -1,6 +1,7 @@
 package com.example.android.mymaps;
 
 import android.app.Dialog;
+import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,9 @@ import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.Circle;
+import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -60,7 +64,7 @@ public class MainActivity extends AppCompatActivity
 
                 mLocationClient.connect();
 
-                //Begin:: Addition of parking spots
+                //BEGIN:: Addition of parking spots
                 LatLng cent_park_latLng = new LatLng(
                         CENT_PARK_LAT,
                         CENT_PARK_LNG
@@ -73,9 +77,9 @@ public class MainActivity extends AppCompatActivity
                         DAN_PARK_LNG
                 );
 
-                //makeNewMarker(dan_park_latLng);
+                makeNewMarker(dan_park_latLng);
 
-                //Begin:: Addition of parking spots
+                //END:: Addition of parking spots
 
 //                mMap.setMyLocationEnabled(true);
             } else {
@@ -139,6 +143,11 @@ public class MainActivity extends AppCompatActivity
             mMap = mapFragment.getMap();
         }
 
+        //BEGIN :: Add Marker Listener
+        
+
+        //END :: Add Marker Listener
+
         return (mMap != null);
     }
 
@@ -170,13 +179,21 @@ public class MainActivity extends AppCompatActivity
             );
             mMap.animateCamera(update);
 
-            if(marker!=null) {
-                marker.remove();
-            }
-
-            MarkerOptions options = new MarkerOptions()
-                    .position(latLng);
-            marker = mMap.addMarker(options);
+            //if(marker!=null) {
+                //marker.remove();      //Commented out to avoid deletion of last shown markers.
+            //}
+            //Commented to put a blue circle to show current location
+            //MarkerOptions options = new MarkerOptions()
+                    //.position(latLng);
+            //marker = mMap.addMarker(options);
+            //commented till here
+            //BEGIN::show blue red circle as current position
+            Circle circle = mMap.addCircle(new CircleOptions()
+                    .center(latLng)//new LatLng(-33.87365, 151.20689))
+                    .radius(50)
+                    .strokeColor(Color.RED)
+                    .fillColor(Color.BLUE));
+            //END::show blue red circle as current position
         }
 
     }
