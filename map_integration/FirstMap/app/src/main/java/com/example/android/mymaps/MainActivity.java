@@ -30,7 +30,13 @@ public class MainActivity extends AppCompatActivity
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
             CENT_LAT = 35.767694,
-            CENT_LNG = -78.676168;
+            CENT_LNG = -78.676168,
+            //BEGIN:: Addition of parking spots
+            CENT_PARK_LAT = 35.769348,
+            CENT_PARK_LNG = -78.678691,
+            DAN_PARK_LAT = 35.787470,
+            DAN_PARK_LNG = -78.675503;
+            //END:: Addition of parking spots
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
 
@@ -54,6 +60,23 @@ public class MainActivity extends AppCompatActivity
 
                 mLocationClient.connect();
 
+                //Begin:: Addition of parking spots
+                LatLng cent_park_latLng = new LatLng(
+                        CENT_PARK_LAT,
+                        CENT_PARK_LNG
+                );
+
+                makeNewMarker(cent_park_latLng);
+
+                LatLng dan_park_latLng = new LatLng(
+                        DAN_PARK_LAT,
+                        DAN_PARK_LNG
+                );
+
+                //makeNewMarker(dan_park_latLng);
+
+                //Begin:: Addition of parking spots
+
 //                mMap.setMyLocationEnabled(true);
             } else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
@@ -62,6 +85,12 @@ public class MainActivity extends AppCompatActivity
         } else {
             setContentView(R.layout.activity_main);
         }
+    }
+
+    public void makeNewMarker(LatLng latlngobj){
+        MarkerOptions options = new MarkerOptions()
+                .position(latlngobj);
+        marker = mMap.addMarker(options);
     }
 
     @Override
@@ -109,6 +138,7 @@ public class MainActivity extends AppCompatActivity
                     (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
             mMap = mapFragment.getMap();
         }
+
         return (mMap != null);
     }
 
