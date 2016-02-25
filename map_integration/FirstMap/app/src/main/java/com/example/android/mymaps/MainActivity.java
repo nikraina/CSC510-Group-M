@@ -27,7 +27,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity
     implements GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener
+        GoogleApiClient.OnConnectionFailedListener,
+        GoogleMap.OnMarkerClickListener
 {
 
     GoogleMap mMap;
@@ -144,7 +145,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         //BEGIN :: Add Marker Listener
-        
+        mMap.setOnMarkerClickListener(this);
 
         //END :: Add Marker Listener
 
@@ -238,6 +239,14 @@ public class MainActivity extends AppCompatActivity
         LocationServices.FusedLocationApi.removeLocationUpdates(
                 mLocationClient, mListener
         );
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+
+        Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
+        // handle the clicks here and show the availability of parking spots
+        return true;
     }
 
 }
