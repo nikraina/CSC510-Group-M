@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
 
 //                mMap.setMyLocationEnabled(true);
             } else {
-                Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();//tp
             }
 
         } else {
