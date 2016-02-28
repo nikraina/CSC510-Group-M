@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\src\androidTest\assets"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\src\androidTest\assets"/></dataSet></merger>
->>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
