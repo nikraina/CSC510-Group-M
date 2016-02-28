@@ -160,12 +160,19 @@ ADDED from AndroidManifest.xml:24:17
 activity#com.example.android.mymaps.Map
 ADDED from AndroidManifest.xml:28:9
 	android:name
+<<<<<<< HEAD
 		ADDED from AndroidManifest.xml:28:19
 activity#com.example.android.mymaps.Signup
 ADDED from AndroidManifest.xml:29:9
 	android:name
 		ADDED from AndroidManifest.xml:29:19
 meta-data#com.google.android.maps.v2.API_KEY
+=======
+		ADDED from AndroidManifest.xml:28:20
+	android:value
+		ADDED from AndroidManifest.xml:29:13
+meta-data#com.google.android.gms.version
+>>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
 ADDED from AndroidManifest.xml:31:9
 	android:name
 		ADDED from AndroidManifest.xml:31:20
@@ -201,9 +208,15 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 	android:name
+<<<<<<< HEAD
 		ADDED from AndroidManifest.xml:34:20
 	android:value
 		ADDED from AndroidManifest.xml:35:13
+=======
+		ADDED from AndroidManifest.xml:31:20
+	android:value
+		ADDED from AndroidManifest.xml:32:13
+>>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.2.0:20:5

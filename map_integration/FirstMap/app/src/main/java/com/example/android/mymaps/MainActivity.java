@@ -17,7 +17,33 @@ public class MainActivity extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_main);
+=======
+
+        if (servicesOK()) {
+            setContentView(R.layout.activity_map);
+
+            if (initMap()) {
+                gotoLocation(CENT_LAT, CENT_LNG, 14);
+
+                mLocationClient = new GoogleApiClient.Builder(this)
+                        .addApi(LocationServices.API)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .build();
+
+                mLocationClient.connect();
+
+//                mMap.setMyLocationEnabled(true);
+            } else {
+                Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();//tp
+            }
+
+        } else {
+            setContentView(R.layout.activity_main);
+        }
+>>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
     }
 
     public void onLoginClick(View view){                                //method for Login

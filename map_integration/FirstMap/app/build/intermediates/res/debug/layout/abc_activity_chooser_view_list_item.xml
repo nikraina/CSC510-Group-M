@@ -49,4 +49,8 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
 </LinearLayout><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_activity_chooser_view_list_item.xml --><!-- From: file:/C:/Users/sneha/Documents/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view_list_item.xml -->
+=======
+</LinearLayout><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_activity_chooser_view_list_item.xml --><!-- From: file:/C:/Users/sneha/Google%20Drive/Github/Parking/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view_list_item.xml -->
+>>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
