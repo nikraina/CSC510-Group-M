@@ -44,4 +44,12 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void onAboutClick(View view){
+        //Toast.makeText(this,"1", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, About.class);
+        startActivity(intent);
+        //Intent intent = new Intent(this, Signup.class);
+        //startActivity(intent);
+    }
+
 }
