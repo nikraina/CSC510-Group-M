@@ -2,6 +2,7 @@
 <items version="2" >
 
     <item
+<<<<<<< HEAD
         jar="C:\Users\sneha\Documents\Android\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -182,6 +183,371 @@
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
         <dex dex="C:\Users\sneha\Documents\Android\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-473f80cbe7ee50aa8edd986435c8cbe167be3d44.jar" />
+=======
+<<<<<<< HEAD
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-e9380fa1fd42760b5bdcaeb95f2398089a2a7178.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-796d1c6550a809da612459773faa39231ee81d8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-4bb1e42e39cbda858984f5899625512c3c395510.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-656de07ec4da10886829a7da7d2f3a627722a242.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-e542911c827590c25d29cdcd6d46e53427b4d883.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-4ae5f7a70f2b9a20616c7bcc47f1615af925ad66.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-9f42fac9864d1ed7715361103e6cd09124a872d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-d37e8084291afa9cc77d7df5f7b9cf469bc28156.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-b8b5c7788f659eb71247732adb3552e689df3b4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-940bd602142f77a9178f191b6d31a8c66c1acee4.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-0b79e8319fa414b37b29547a8f40a56dc3b6324c.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-5fc51a5ce3838b02dc99f981f0a51dc48ccb8e19.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-5a21fc1826f38a8d88ddfafe9f67ce1878f43213.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-02c596bcd2d61cb2e2ec115eb20fe1df7bad598d.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-013ea5077a5c9a8964434b02fcdaef7f06e586f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-3697039c03292aae7bac1a6c2bdc9a3f6a58332e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-d807deaee0a3ccc0cae3580536b970eb74525c74.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-bc7fa841c292b9eb7b76c0618e6389e5ea047a4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-126291b74e38887c809a6f0ea879bd78f95a4069.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-e19e47e48182f553ff01c3b44047b8434a52903b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-48aba6dfc4ccb165c080bca43351cb9a896a7204.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-9180a5568e599d85206219a4b80adb7e0ef3e77e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-063273fa5a2e32878604266dcd453b6246553619.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-43b905f611995741e3cfd45cc7938d111b24f76e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-65b8dfa7f0b9a42976a300d7572512deed4a6973.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\AppData\Local\Android2\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4ae56d1db99eecbeca478f9e28ca2a4a4a8ccbaa.jar" />
+=======
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-ba58878160465825336c898498bdd27d7f7b89d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-ad96dc613d3baf256cd2b2257d0ad9646db0c37e.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-bed0fdb0d83794cd85ba26166d03ea29ddcdf340.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-d9f31231d2883092959759950f832f27bfb1177f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-746740a40a6ea7959ff822fc383c00565c242ba7.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-1a9953496860f8d4ea69dccf4fe0811b1848f8c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-41120bfc2918a7c824cc96b207b6de36d7dc0010.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-3a9d7b1aeef31de3ee0b2cf34cf01246b10e13fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-7ce2dbac5e7df52d397bf1cd5ed273acd391befa.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-6df5b33dcc08f0bebed084604173f4788365aa48.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-09af66357b9036563e70deda004203e4961a0ed7.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-7984a4b5a2853b19dbcdba06729bec7d61680581.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-61cc278603f3eea250f2fdab5a6a861f5507ce8b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-b1e009bcc299a0374a36663cd58529482bcb98fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-334a06f3e5ec9905b7ea1750369ee7d828b2707a.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\AppData\Local\Android2\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4ae56d1db99eecbeca478f9e28ca2a4a4a8ccbaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-1a4fabbb3c4475aa4660fda8f17b80ccc7444ca8.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-07c6019350df9399f1bcb4d1cf274a8ff553bdc1.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-43240e37b49821457880307e9196952c0825196d.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-41630e131431dfe35f469864f80d4893fb47ef62.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-75628f648784bf9fa277b09373356b8330d0c0c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-97fca198d41208d4ff7e566d6b3e37ef9bb7580a.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-1149907934b42a33c9f4c717a89c0d4acb760644.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-e1048d5da8539294da7d86adaacb6d4180dd1c48.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\classes-09cc2a490027f65f74a3100d9223757225010fb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\sneha\Google Drive\Github\Parking\map_integration\FirstMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-e43fc18008bfb58b93b0b888bc2fec7721743807.jar" />
+>>>>>>> 459d3f9f398df4208b77919700076d592dfc3b6c
+>>>>>>> 84cd02372dc9c7ac38c027612cf26ebb7603e589
     </item>
 
 </items>

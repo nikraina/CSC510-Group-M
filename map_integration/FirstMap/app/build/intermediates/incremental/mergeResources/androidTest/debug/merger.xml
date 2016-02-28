@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\sneha\Documents\Android\CSC510-Group-M\map_integration\FirstMap\app\src\androidTest\res"/><source path="C:\Users\sneha\Documents\Android\CSC510-Group-M\map_integration\FirstMap\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\sneha\Documents\Android\CSC510-Group-M\map_integration\FirstMap\app\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\src\androidTest\res"/><source path="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\sneha\Documents\CSC510-Group-M\map_integration\FirstMap\app\build\generated\res\generated\androidTest\debug"/></dataSet><mergedItems/></merger>
+>>>>>>> 84cd02372dc9c7ac38c027612cf26ebb7603e589

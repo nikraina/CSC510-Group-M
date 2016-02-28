@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/sneha/Documents/Android/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/values-w820dp/dimens.xml -->
+=======
+    <!-- From: file:/C:/Users/sneha/Documents/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/values-w820dp/dimens.xml -->
+>>>>>>> 84cd02372dc9c7ac38c027612cf26ebb7603e589
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>
