@@ -53,7 +53,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up Now"
+        android:text="Sign Up"
         android:id="@+id/Bsignupnow"
         android:onClick="onSignupNowClick"
         android:layout_marginTop="43dp"
