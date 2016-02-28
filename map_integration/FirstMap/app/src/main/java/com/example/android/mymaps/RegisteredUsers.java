@@ -14,7 +14,7 @@ public class RegisteredUsers {
     public int getId(int id){
         return this.id;
     }*/
-    //test
+    
 
     public void setName(String name){
         this.name = name;
