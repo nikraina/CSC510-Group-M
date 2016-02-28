@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
         String db_password = helper_db.userAuth(uname);
 
         if(password.equals(db_password)){
-            Intent intent = new Intent(this, Map.class);
+            Intent intent = new Intent(this, SelectOptions.class);
             intent.putExtra("Username", uname); //example for passing variables between screens
             startActivity(intent);
         }
@@ -51,5 +51,7 @@ public class MainActivity extends Activity {
         //Intent intent = new Intent(this, Signup.class);
         //startActivity(intent);
     }
+
+
 
 }

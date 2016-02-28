@@ -41,7 +41,7 @@ public class Map extends AppCompatActivity
             CENT_LAT = 35.767694,
             CENT_LNG = -78.676168,
     //BEGIN:: Addition of parking spots
-    CENT_PARK_LAT = 35.769348,
+            CENT_PARK_LAT = 35.769348,
             CENT_PARK_LNG = -78.678691,
             DAN_PARK_LAT = 35.787470,
             DAN_PARK_LNG = -78.675503;

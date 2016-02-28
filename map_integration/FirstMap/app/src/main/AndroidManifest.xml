@@ -28,6 +28,9 @@
         <activity android:name=".Map"></activity>
         <activity android:name=".Signup"></activity>
         <activity android:name=".About"></activity>
+        <activity android:name=".SelectOptions"></activity>
+        <activity android:name=".SelectParkingLot"></activity>
+
 
         <meta-data android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyAqhlJdujwA4_XYCVoDk0t3zG9H_TM3jZ4"/>
