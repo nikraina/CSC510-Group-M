@@ -5,6 +5,7 @@
 package com.example.android.mymaps;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
@@ -87,10 +88,8 @@ public class Map extends AppCompatActivity
 
                 makeNewMarker(dan_park_latLng);
 
-                //END:: Addition of parking spots
-
-//                mMap.setMyLocationEnabled(true);
-            } else {
+            }
+            else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
             }
 
@@ -155,7 +154,6 @@ public class Map extends AppCompatActivity
         //BEGIN :: Add Marker Listener
         mMap.setOnMarkerClickListener(this);
 
-        //END :: Add Marker Listener
 
         return (mMap != null);
     }
@@ -251,7 +249,7 @@ public class Map extends AppCompatActivity
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-
+        onMarkerClick(marker);
         Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
         // handle the clicks here and show the availability of parking spots
         return true;

@@ -20,7 +20,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onLoginClick(View view){                                //method for Login
+    //method for Login
+    public void onLoginClick(View view){
         EditText uname_raw = (EditText)findViewById(R.id.TFusername);
         String uname = uname_raw.getText().toString();
         EditText password_raw = (EditText)findViewById(R.id.TFpassword);
@@ -39,7 +40,8 @@ public class MainActivity extends Activity {
 
     }
 
-    public void onSignupNowClick(View view){                            //method for SignupNow
+    //method for SignupNow
+    public void onSignupNowClick(View view){
         Intent intent = new Intent(this, Signup.class);
         startActivity(intent);
     }
