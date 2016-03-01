@@ -39,11 +39,8 @@ public class Map extends AppCompatActivity
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
-            CENT_LAT = 35.767694,
-            CENT_LNG = -78.676168,
-    //BEGIN:: Addition of parking spots
-    CENT_PARK_LAT = 35.769348,
-            CENT_PARK_LNG = -78.678691,
+            HUNT_PARK_LAT = 35.767694,
+            HUNT_PARK_LNG = -78.676168,
             DAN_PARK_LAT = 35.787470,
             DAN_PARK_LNG = -78.675503;
     //END:: Addition of parking spots
@@ -63,7 +60,7 @@ public class Map extends AppCompatActivity
             setContentView(R.layout.activity_map);
 
             if (initMap()) {
-                gotoLocation(CENT_LAT, CENT_LNG, 14);
+                gotoLocation(HUNT_PARK_LAT, HUNT_PARK_LNG, 14);
 
                 mLocationClient = new GoogleApiClient.Builder(this)
                         .addApi(LocationServices.API)
@@ -74,19 +71,20 @@ public class Map extends AppCompatActivity
                 mLocationClient.connect();
 
                 //BEGIN:: Addition of parking spots
-                LatLng cent_park_latLng = new LatLng(
-                        CENT_PARK_LAT,
-                        CENT_PARK_LNG
+                LatLng hunt_park_latLng = new LatLng(
+                        HUNT_PARK_LAT,
+                        HUNT_PARK_LNG
                 );
 
-                makeNewMarker(cent_park_latLng);
+                makeNewMarker(hunt_park_latLng);
 
                 LatLng dan_park_latLng = new LatLng(
                         DAN_PARK_LAT,
                         DAN_PARK_LNG
                 );
 
-                makeNewMarker(dan_park_latLng);
+
+                //makeNewMarker(dan_park_latLng);
 
             }
             else {
@@ -98,6 +96,7 @@ public class Map extends AppCompatActivity
             Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
         }
     }
+
 
     public void makeNewMarker(LatLng latlngobj){
         MarkerOptions options = new MarkerOptions()
@@ -150,10 +149,6 @@ public class Map extends AppCompatActivity
                     (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
             mMap = mapFragment.getMap();
         }
-
-        //BEGIN :: Add Marker Listener
-        mMap.setOnMarkerClickListener(this);
-
 
         return (mMap != null);
     }
@@ -250,8 +245,10 @@ public class Map extends AppCompatActivity
     @Override
     public boolean onMarkerClick(Marker marker) {
         onMarkerClick(marker);
-        Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
         // handle the clicks here and show the availability of parking spots
+        
+
         return true;
     }
 
