@@ -245,6 +245,7 @@ public class Map extends AppCompatActivity
     @Override
     public boolean onMarkerClick(Marker marker) {
         onMarkerClick(marker);
+        marker.showInfoWindow();
         //Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
         // handle the clicks here and show the availability of parking spots
         
