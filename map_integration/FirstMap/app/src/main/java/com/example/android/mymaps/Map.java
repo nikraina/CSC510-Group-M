@@ -39,6 +39,8 @@ public class Map extends AppCompatActivity
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
+            CAPABILITY_DRV_LAT = 35.770630,
+            CAPABILITY_DRV_LNG = -78.681957,
             HUNT_PARK_LAT = 35.767694,
             HUNT_PARK_LNG = -78.676168,
             DAN_PARK_LAT = 35.787470,
@@ -84,7 +86,12 @@ public class Map extends AppCompatActivity
                 );
 
 
-                //makeNewMarker(dan_park_latLng);
+                LatLng capability_drv_latLng = new LatLng(
+                        CAPABILITY_DRV_LAT,
+                        CAPABILITY_DRV_LAT
+                );
+
+                makeNewMarker(capability_drv_latLng);
 
             }
             else {
