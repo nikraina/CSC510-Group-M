@@ -44,7 +44,11 @@ public class Map extends AppCompatActivity
             HUNT_PARK_LAT = 35.767694,
             HUNT_PARK_LNG = -78.676168,
             DAN_PARK_LAT = 35.787470,
-            DAN_PARK_LNG = -78.675503;
+            DAN_PARK_LNG = -78.675503,
+            VARSITY_LAT = 35.779665,
+            VARSITY_LNG = -78.681602,
+            REYNOLDS_LAT = 35.784475,
+            REYNOLDS_LNG = -78.668372;
     //END:: Addition of parking spots
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
@@ -88,10 +92,24 @@ public class Map extends AppCompatActivity
 
                 LatLng capability_drv_latLng = new LatLng(
                         CAPABILITY_DRV_LAT,
-                        CAPABILITY_DRV_LAT
+                        CAPABILITY_DRV_LNG
                 );
 
                 makeNewMarker(capability_drv_latLng);
+
+                LatLng varsity_park_latLng = new LatLng(
+                        VARSITY_LAT,
+                        VARSITY_LNG
+                );
+
+                makeNewMarker(varsity_park_latLng);
+
+                LatLng reynolds_park_latLng = new LatLng(
+                        REYNOLDS_LAT,
+                        REYNOLDS_LNG
+                );
+
+                makeNewMarker(reynolds_park_latLng);
 
             }
             else {
@@ -251,9 +269,9 @@ public class Map extends AppCompatActivity
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-        onMarkerClick(marker);
-        marker.showInfoWindow();
-        //Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
+        //onMarkerClick(marker);
+        //marker.showInfoWindow();
+        Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
         // handle the clicks here and show the availability of parking spots
         
 
