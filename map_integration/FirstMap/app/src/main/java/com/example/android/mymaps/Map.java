@@ -39,8 +39,8 @@ public class Map extends AppCompatActivity
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
-            CAPABILITY_DRV_LAT = 35.770630,
-            CAPABILITY_DRV_LNG = -78.681957,
+            //CAPABILITY_DRV_LAT = 35.770630,
+            //CAPABILITY_DRV_LNG = -78.681957,
             HUNT_PARK_LAT = 35.767694,
             HUNT_PARK_LNG = -78.676168,
             DAN_PARK_LAT = 35.787470,
@@ -90,12 +90,12 @@ public class Map extends AppCompatActivity
                 );
 
 
-                LatLng capability_drv_latLng = new LatLng(
+                /*LatLng capability_drv_latLng = new LatLng(
                         CAPABILITY_DRV_LAT,
                         CAPABILITY_DRV_LNG
                 );
 
-                makeNewMarker(capability_drv_latLng);
+                makeNewMarker(capability_drv_latLng);*/
 
                 LatLng varsity_park_latLng = new LatLng(
                         VARSITY_LAT,
@@ -110,6 +110,13 @@ public class Map extends AppCompatActivity
                 );
 
                 makeNewMarker(reynolds_park_latLng);
+
+                final LatLng capability_drv_latLng = new LatLng(35.770630, -78.681957);
+                Marker capability_drv = mMap.addMarker(new MarkerOptions()
+                        .position(capability_drv_latLng)
+                        .title("Capability Drive")
+                        .snippet("Status : 35% full"));
+                capability_drv.showInfoWindow();
 
             }
             else {
