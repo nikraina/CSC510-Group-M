@@ -53,12 +53,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up Now!"
+        android:text="Sign Up Now"
         android:id="@+id/Bsignupnow"
         android:onClick="onSignupNowClick"
         android:layout_marginTop="43dp"
         android:layout_below="@+id/Blogin"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/About"
+        android:onClick="onAboutClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true" />
 
 </RelativeLayout>

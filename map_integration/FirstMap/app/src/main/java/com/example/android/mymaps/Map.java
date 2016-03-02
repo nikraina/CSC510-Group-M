@@ -38,6 +38,18 @@ public class Map extends AppCompatActivity
 
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
+<<<<<<< HEAD
+=======
+    private static final double
+            CENT_LAT = 35.767694,
+            CENT_LNG = -78.676168,
+    //BEGIN:: Addition of parking spots
+            CENT_PARK_LAT = 35.769348,
+            CENT_PARK_LNG = -78.678691,
+            DAN_PARK_LAT = 35.787470,
+            DAN_PARK_LNG = -78.675503;
+    //END:: Addition of parking spots
+>>>>>>> origin/experimental_feature
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
 
