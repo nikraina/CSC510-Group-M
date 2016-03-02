@@ -104,6 +104,37 @@ public class Map extends AppCompatActivity
                         .snippet("Status : 35% full"));
                 capability_drv.showInfoWindow();
 
+                final LatLng coliseum_deck_latLng = new LatLng(35.782441,-78.668237);
+                Marker coliseum_deck = mMap.addMarker(new MarkerOptions()
+                        .position(coliseum_deck_latLng)
+                        .title("Coliseum Deck Parking Lot")
+                        .snippet("Status : 08% full"));
+                coliseum_deck.showInfoWindow();
+
+
+                final LatLng bell_tower_latLng = new LatLng(35.785917, -78.663330);
+                Marker bell_tower = mMap.addMarker(new MarkerOptions()
+                        .position(bell_tower_latLng)
+                        .title("Bell Tower Parking Lot")
+                        .snippet("Status : 12% full"));
+                bell_tower.showInfoWindow();
+
+
+                final LatLng poultan_deck_latLng = new LatLng(35.769582, -78.677181);
+                Marker poultan_deck = mMap.addMarker(new MarkerOptions()
+                        .position(poultan_deck_latLng)
+                        .title("Poultan Deck Parking Lot")
+                        .snippet("Status : 28% full"));
+                poultan_deck.showInfoWindow();
+
+
+                final LatLng partners_way_latLng = new LatLng(35.774125, -78.674249);
+                Marker partners_way = mMap.addMarker(new MarkerOptions()
+                        .position(partners_way_latLng)
+                        .title("Partner's Way Deck Parking Lot")
+                        .snippet("Status : 28% full"));
+                partners_way.showInfoWindow();
+
             }
             else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
@@ -260,7 +291,7 @@ public class Map extends AppCompatActivity
         //marker.showInfoWindow();
         Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
         // handle the clicks here and show the availability of parking spots
-        
+
 
         return true;
     }
