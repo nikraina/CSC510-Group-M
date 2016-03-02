@@ -65,12 +65,12 @@ public class Map extends AppCompatActivity
                 mLocationClient.connect();
 
                 //BEGIN:: Addition of parking spots
-                final LatLng hunt_park_latLng = new LatLng(35.767694, 78.676168);
-                Marker hunt_park = mMap.addMarker(new MarkerOptions()
-                        .position(hunt_park_latLng)
-                        .title("Hunt Parking Lot")
+                final LatLng centennial_deck_latLng = new LatLng(35.769342, -78.673975);
+                Marker centennial_deck = mMap.addMarker(new MarkerOptions()
+                        .position(centennial_deck_latLng)
+                        .title("Centennial Deck Parking Lot")
                         .snippet("Status : 79% full"));
-                hunt_park.showInfoWindow();
+                centennial_deck.showInfoWindow();
 
 
                 final LatLng dan_park_latLng = new LatLng(35.787470, -78.675503);
@@ -92,7 +92,7 @@ public class Map extends AppCompatActivity
                 final LatLng reynolds_park_latLng = new LatLng(35.784475, -78.668372);
                 Marker reynolds_park = mMap.addMarker(new MarkerOptions()
                         .position(reynolds_park_latLng)
-                        .title("Reynolds Parking Drive")
+                        .title("Reynolds Coliseum Parking Deck")
                         .snippet("Status : 59% full"));
                 reynolds_park.showInfoWindow();
 
@@ -175,7 +175,7 @@ public class Map extends AppCompatActivity
         }
         MarkerOptions options = new MarkerOptions()
                 .position(latlng);
-        marker = mMap.addMarker(options);
+        //marker = mMap.addMarker(options);  (Stray marker, no reason found for adding it)
     }
 
     public void showCurrentLocation(MenuItem item) {
