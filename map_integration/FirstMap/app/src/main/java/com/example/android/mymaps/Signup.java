@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class Signup extends Activity{
 
     DatabaseHelper helper_db = new DatabaseHelper(this);
+    //test
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

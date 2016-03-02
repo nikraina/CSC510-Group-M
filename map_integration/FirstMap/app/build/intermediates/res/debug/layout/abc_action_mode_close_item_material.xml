@@ -24,7 +24,11 @@
              style="?attr/actionModeCloseButtonStyle"
              android:layout_width="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
              android:layout_height="match_parent" /><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_mode_close_item_material.xml --><!-- From: file:/C:/Users/murde/Android/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml -->
 =======
              android:layout_height="match_parent" /><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_mode_close_item_material.xml --><!-- From: file:/C:/Users/sneha/CSC510-Group-M/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml -->
 >>>>>>> origin/experimental_feature
+=======
+             android:layout_height="match_parent" /><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_action_mode_close_item_material.xml --><!-- From: file:/C:/Users/sneha/Documents/Parking/map_integration/FirstMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml -->
+>>>>>>> origin/eggman89

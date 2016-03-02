@@ -46,6 +46,7 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
     public void onAboutClick(View view){
         //Toast.makeText(this,"1", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, About.class);
@@ -57,3 +58,6 @@ public class MainActivity extends Activity {
 
 
 }
+=======
+}
+>>>>>>> origin/eggman89
