@@ -38,18 +38,6 @@ public class Map extends AppCompatActivity
 
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
-    private static final double
-            //CAPABILITY_DRV_LAT = 35.770630,
-            //CAPABILITY_DRV_LNG = -78.681957,
-            HUNT_PARK_LAT = 35.767694,
-            HUNT_PARK_LNG = -78.676168,
-            DAN_PARK_LAT = 35.787470,
-            DAN_PARK_LNG = -78.675503,
-            VARSITY_LAT = 35.779665,
-            VARSITY_LNG = -78.681602,
-            REYNOLDS_LAT = 35.784475,
-            REYNOLDS_LNG = -78.668372;
-    //END:: Addition of parking spots
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
 
@@ -66,7 +54,7 @@ public class Map extends AppCompatActivity
             setContentView(R.layout.activity_map);
 
             if (initMap()) {
-                gotoLocation(HUNT_PARK_LAT, HUNT_PARK_LNG, 14);
+                gotoLocation(35.784694, -78.682084, 14);
 
                 mLocationClient = new GoogleApiClient.Builder(this)
                         .addApi(LocationServices.API)
@@ -77,39 +65,37 @@ public class Map extends AppCompatActivity
                 mLocationClient.connect();
 
                 //BEGIN:: Addition of parking spots
-                LatLng hunt_park_latLng = new LatLng(
-                        HUNT_PARK_LAT,
-                        HUNT_PARK_LNG
-                );
-
-                makeNewMarker(hunt_park_latLng);
-
-                LatLng dan_park_latLng = new LatLng(
-                        DAN_PARK_LAT,
-                        DAN_PARK_LNG
-                );
+                final LatLng hunt_park_latLng = new LatLng(35.767694, 78.676168);
+                Marker hunt_park = mMap.addMarker(new MarkerOptions()
+                        .position(hunt_park_latLng)
+                        .title("Hunt Parking Lot")
+                        .snippet("Status : 79% full"));
+                hunt_park.showInfoWindow();
 
 
-                /*LatLng capability_drv_latLng = new LatLng(
-                        CAPABILITY_DRV_LAT,
-                        CAPABILITY_DRV_LNG
-                );
+                final LatLng dan_park_latLng = new LatLng(35.787470, -78.675503);
+                Marker dan_park = mMap.addMarker(new MarkerOptions()
+                        .position(dan_park_latLng)
+                        .title("Dan Allen Parking Lot")
+                        .snippet("Status : 81% full"));
+                dan_park.showInfoWindow();
 
-                makeNewMarker(capability_drv_latLng);*/
 
-                LatLng varsity_park_latLng = new LatLng(
-                        VARSITY_LAT,
-                        VARSITY_LNG
-                );
+                final LatLng varsity_park_latLng = new LatLng(35.779665, -78.681602);
+                Marker varsity_park = mMap.addMarker(new MarkerOptions()
+                        .position(varsity_park_latLng)
+                        .title("Varsity Drive Parking Lot")
+                        .snippet("Status : 12% full"));
+                varsity_park.showInfoWindow();
 
-                makeNewMarker(varsity_park_latLng);
 
-                LatLng reynolds_park_latLng = new LatLng(
-                        REYNOLDS_LAT,
-                        REYNOLDS_LNG
-                );
+                final LatLng reynolds_park_latLng = new LatLng(35.784475, -78.668372);
+                Marker reynolds_park = mMap.addMarker(new MarkerOptions()
+                        .position(reynolds_park_latLng)
+                        .title("Reynolds Parking Drive")
+                        .snippet("Status : 59% full"));
+                reynolds_park.showInfoWindow();
 
-                makeNewMarker(reynolds_park_latLng);
 
                 final LatLng capability_drv_latLng = new LatLng(35.770630, -78.681957);
                 Marker capability_drv = mMap.addMarker(new MarkerOptions()
@@ -129,12 +115,6 @@ public class Map extends AppCompatActivity
         }
     }
 
-
-    public void makeNewMarker(LatLng latlngobj){
-        MarkerOptions options = new MarkerOptions()
-                .position(latlngobj);
-        marker = mMap.addMarker(options);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
