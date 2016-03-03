@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-e1573054105e7ce7a4d351d3059e76da3c8741d7.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-efd0f66115302cd92b043fcb14968e552e73b462.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-8e89cd99d0525a5589af174d9d8a5ab6a3ee7829.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-e4f995c0c785418f5f27c7b48cfe2e6bc09cf025.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-d0a4780ba83f4be1fa50da8966878dfc5cbaa47d.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-9379b932f8f0c62dac0c59b8c203b84ef72d53f5.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-129f6bd810ef076e51358ce70926d3e78dbfb5e3.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-606e1c1b0a27a8f717d4a199eb35419f4ab5488c.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-4598d5e0d6f28c70b577272db56b7c2b367bda47.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-1127c81346cf2930ebf86108cbb10a3ca014e35f.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-e04c7eafad267c448d5692ea04ea6af9eb6b001e.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-9d4b990092b2c21f4f04e6cc87a8923c76e1ef3c.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-ff6a17bc6f8bd145f4c161f1d97a3d028da877ec.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-dcfdb5fb464b92717b1aa5993de188ea1ad724ce.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-c7c93a882c22d514515e75c86aed5f5e3cb1005f.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-3183a1240e07f59eb7091bd22256527370d989f9.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-489846348f3be6a38e94a35c3c327372457a9119.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-eca0de163d9faf141d36a2856a2d65152f16140b.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-01b0a5c26116a2ea5dff6770daecab1d9d2f7ad0.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-51199d7e0a85a3d0873811f9fc25dd13457a6de7.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-d4598aea72f73f18ac57c4350400c2e7597ab19e.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-f0ca5148aa12b5fcd7f6e778c5f2b8a34b4d41ec.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-cb9a263e57727ea2687f9ee6a7114d4c134ec111.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-6555692a53b2431dca2ad673ab2260fdf73ff4eb.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-0057cabf9668035d47321c6fadd7bc1073a298d2.jar" />
+    </item>
+    <item
+        jar="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/build/intermediates/pre-dexed/debug/classes-040e8d8b189f85145f72bfeb9c8ab3c91e65a855.jar" />
+    </item>
+
+</items>
