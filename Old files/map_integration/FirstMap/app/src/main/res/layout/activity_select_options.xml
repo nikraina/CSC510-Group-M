@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Action"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Maps"
+        android:id="@+id/db_go_to_maps"
+        android:checked="false"
+        android:onClick="onClickGoToMaps" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Empty Parking Slots"
+        android:id="@+id/rb_see_empty_parking_slots"
+        android:checked="false"
+        android:onClick="onClickSeeEmptyParkingSlots" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Favorites"
+        android:id="@+id/rb_set_favs"
+        android:checked="false"
+        android:onClick="selectFavParkingLot" />
+
+
+</LinearLayout>
