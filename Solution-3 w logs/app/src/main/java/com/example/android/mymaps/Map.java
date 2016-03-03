@@ -10,10 +10,13 @@ import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -36,6 +39,7 @@ public class Map extends AppCompatActivity
         GoogleMap.OnMarkerClickListener
 {
 
+    private Tracker mTracker;
     GoogleMap mMap;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
@@ -117,6 +121,9 @@ public class Map extends AppCompatActivity
             setContentView(R.layout.activity_main);
             Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
         }
+
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
     }
 
 
@@ -129,6 +136,11 @@ public class Map extends AppCompatActivity
 
     //BEGIN :: Fix for unfortunately stopped working
     protected void onResume() {
+            // [START screen_view_hit]
+            Log.i("Map", "Setting screen name: " + "map_screen");
+            mTracker.setScreenName("Image~" + "map_screen");
+            mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+            // [END screen_view_hit]
             super.onResume();
             initMap();
     }
