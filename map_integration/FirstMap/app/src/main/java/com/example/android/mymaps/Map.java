@@ -32,8 +32,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class Map extends AppCompatActivity
         implements GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener,
-        GoogleMap.OnMarkerClickListener
+        GoogleApiClient.OnConnectionFailedListener
+
 {
 
     GoogleMap mMap;
@@ -215,12 +215,12 @@ public class Map extends AppCompatActivity
         if (currentLocation == null) {
             Toast.makeText(this, "Couldn't connect!", Toast.LENGTH_SHORT).show();
         } else {
-            LatLng latLng = new LatLng(
+            LatLng curent_latLng = new LatLng(
                     currentLocation.getLatitude(),
                     currentLocation.getLongitude()
             );
             CameraUpdate update = CameraUpdateFactory.newLatLngZoom(
-                    latLng, 15
+                    curent_latLng, 15
             );
             mMap.animateCamera(update);
 
@@ -234,7 +234,7 @@ public class Map extends AppCompatActivity
             //commented till here
             //BEGIN::show blue red circle as current position
             Circle circle = mMap.addCircle(new CircleOptions()
-                    .center(latLng)//new LatLng(-33.87365, 151.20689))
+                    .center(curent_latLng)//new LatLng(-33.87365, 151.20689))
                     .radius(50)
                     .strokeColor(Color.RED)
                     .fillColor(Color.BLUE));
@@ -285,16 +285,11 @@ public class Map extends AppCompatActivity
         );
     }
 
-    @Override
-    public boolean onMarkerClick(Marker marker) {
-        //onMarkerClick(marker);
-        //marker.showInfoWindow();
-        Toast.makeText(this, "This is Marker Listener", Toast.LENGTH_SHORT).show();
-        // handle the clicks here and show the availability of parking spots
+    //Function to find distance between parking lots
+   /* public void findNearestLatLng(LatLng curent_latLng, LatLng centennial_deck_latLng) {
+        float distanceInMeters = curent_latLng.distanceTo(centennial_deck_latLng);
 
-
-        return true;
-    }
+    }*/
 
 }
 
