@@ -28,13 +28,13 @@
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 
     <application
-        android:name="com.example.android.mymaps.AnalyticsApplication"
+        android:name="com.example.android.mymapstest.AnalyticsApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.android.mymaps.MainActivity"
+            android:name="com.example.android.mymapstest.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,13 +42,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.mymaps.Map" />
-        <activity android:name="com.example.android.mymaps.Signup" />
-        <activity android:name="com.example.android.mymaps.Menu" />
-        <activity android:name="com.example.android.mymaps.ManageOptions" />
-        <activity android:name="com.example.android.mymaps.NewRegisteration" />
-        <activity android:name="com.example.android.mymaps.EditRegisteration" />
-        <activity android:name="com.example.android.mymaps.ViewTickets" />
+        <activity android:name="com.example.android.mymapstest.Map" />
+        <activity android:name="com.example.android.mymapstest.Signup" />
+        <activity android:name="com.example.android.mymapstest.Menu" />
+        <activity android:name="com.example.android.mymapstest.ManageOptions" />
+        <activity android:name="com.example.android.mymapstest.NewRegisteration" />
+        <activity android:name="com.example.android.mymapstest.EditRegisteration" />
+        <activity android:name="com.example.android.mymapstest.ViewTickets" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"

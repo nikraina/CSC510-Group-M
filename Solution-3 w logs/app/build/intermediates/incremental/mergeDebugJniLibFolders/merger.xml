@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/nikhil/Desktop/Android/CSC510-Group-M/Solution-3 w logs/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/Solution-3 w logs/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/krishnaagarwala/Downloads/CSC510/CSC510-Group-M/Solution-3 w logs/app/src/debug/jniLibs"/></dataSet></merger>
