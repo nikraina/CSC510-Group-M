@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.mymaps"
+    package="com.example.android.mymaps3"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,7 +36,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.android.mymaps.MainActivity"
+            android:name="com.example.android.mymaps3.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,13 +44,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.mymaps.Map" />
-        <activity android:name="com.example.android.mymaps.Signup" />
-        <activity android:name="com.example.android.mymaps.Menu" />
-        <activity android:name="com.example.android.mymaps.ManageOptions" />
-        <activity android:name="com.example.android.mymaps.NewRegisteration" />
-        <activity android:name="com.example.android.mymaps.EditRegisteration" />
-        <activity android:name="com.example.android.mymaps.ViewTickets" />
+        <activity android:name="com.example.android.mymaps3.Map" />
+        <activity android:name="com.example.android.mymaps3.Signup" />
+        <activity android:name="com.example.android.mymaps3.Menu" />
+        <activity android:name="com.example.android.mymaps3.ManageOptions" />
+        <activity android:name="com.example.android.mymaps3.NewRegisteration" />
+        <activity android:name="com.example.android.mymaps3.EditRegisteration" />
+        <activity android:name="com.example.android.mymaps3.ViewTickets" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"

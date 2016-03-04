@@ -141,7 +141,7 @@ MERGED from com.android.support:support-v4:22.2.0:22:5
 		ADDED from AndroidManifest.xml:15:9
 	android:theme
 		ADDED from AndroidManifest.xml:17:9
-activity#com.example.android.mymaps.MainActivity
+activity#com.example.android.mymaps3.MainActivity
 ADDED from AndroidManifest.xml:18:9
 	android:label
 		ADDED from AndroidManifest.xml:20:13
@@ -157,31 +157,31 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:24:17
 	android:name
 		ADDED from AndroidManifest.xml:24:27
-activity#com.example.android.mymaps.Map
+activity#com.example.android.mymaps3.Map
 ADDED from AndroidManifest.xml:28:9
 	android:name
 		ADDED from AndroidManifest.xml:28:19
-activity#com.example.android.mymaps.Signup
+activity#com.example.android.mymaps3.Signup
 ADDED from AndroidManifest.xml:29:9
 	android:name
 		ADDED from AndroidManifest.xml:29:19
-activity#com.example.android.mymaps.Menu
+activity#com.example.android.mymaps3.Menu
 ADDED from AndroidManifest.xml:30:9
 	android:name
 		ADDED from AndroidManifest.xml:30:19
-activity#com.example.android.mymaps.ManageOptions
+activity#com.example.android.mymaps3.ManageOptions
 ADDED from AndroidManifest.xml:31:9
 	android:name
 		ADDED from AndroidManifest.xml:31:19
-activity#com.example.android.mymaps.NewRegisteration
+activity#com.example.android.mymaps3.NewRegisteration
 ADDED from AndroidManifest.xml:32:9
 	android:name
 		ADDED from AndroidManifest.xml:32:19
-activity#com.example.android.mymaps.EditRegisteration
+activity#com.example.android.mymaps3.EditRegisteration
 ADDED from AndroidManifest.xml:33:9
 	android:name
 		ADDED from AndroidManifest.xml:33:19
-activity#com.example.android.mymaps.ViewTickets
+activity#com.example.android.mymaps3.ViewTickets
 ADDED from AndroidManifest.xml:34:9
 	android:name
 		ADDED from AndroidManifest.xml:34:19
