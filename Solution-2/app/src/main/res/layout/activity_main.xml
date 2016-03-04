@@ -1,64 +1,70 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/Blogin"
-        android:onClick="onLoginClick"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Username"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/Blogin"
-        android:layout_alignEnd="@+id/Blogin" />
-
-    <EditText
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TFusername"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Password"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/TFusername"
-        android:layout_centerHorizontal="true" />
+        <EditText
+            android:id="@+id/TFusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
 
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/TFpassword"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        <EditText
+            android:id="@+id/TFpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign Up Now!"
-        android:id="@+id/Bsignupnow"
-        android:onClick="onSignupNowClick"
-        android:layout_marginTop="43dp"
-        android:layout_below="@+id/Blogin"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        <Button
+            android:id="@+id/Blogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Login"
+            android:textColor="@color/btn_login"
+            android:textAllCaps="false"
+            android:onClick="onLoginClick" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/Bsignupnow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Sign Up Now"
+            android:textColor="@color/btn_login"
+            android:textAllCaps="false"
+            android:onClick="onSignupNowClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

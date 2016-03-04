@@ -5,6 +5,7 @@
 package com.example.android.mymaps3;
 
 import android.app.Dialog;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
@@ -28,27 +29,24 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Map extends AppCompatActivity
         implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleMap.OnMarkerClickListener
 {
     UserLocationLog helper_db = new UserLocationLog(this);
+    DatabaseHelper help_db = new DatabaseHelper(this);
 
     GoogleMap mMap;
+    List<MarkerOptions> options;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private static final double
-            CAPABILITY_DRV_LAT = 35.770630,
-            CAPABILITY_DRV_LNG = -78.681957,
-            HUNT_PARK_LAT = 35.767694,
-            HUNT_PARK_LNG = -78.676168,
-            DAN_PARK_LAT = 35.787470,
-            DAN_PARK_LNG = -78.675503,
-            VARSITY_LAT = 35.779665,
-            VARSITY_LNG = -78.681602,
-            REYNOLDS_LAT = 35.784475,
-            REYNOLDS_LNG = -78.668372;
-    //END:: Addition of parking spots
+            CENT_LAT = 35.784694,
+            CENT_LONG= -78.682084;
+
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
 
@@ -62,7 +60,7 @@ public class Map extends AppCompatActivity
             setContentView(R.layout.activity_map);
 
             if (initMap()) {
-                gotoLocation(HUNT_PARK_LAT, HUNT_PARK_LNG, 14);
+                gotoLocation(CENT_LAT, CENT_LONG, 14);
 
                 mLocationClient = new GoogleApiClient.Builder(this)
                         .addApi(LocationServices.API)
@@ -72,40 +70,7 @@ public class Map extends AppCompatActivity
 
                 mLocationClient.connect();
 
-                //BEGIN:: Addition of parking spots
-                LatLng hunt_park_latLng = new LatLng(
-                        HUNT_PARK_LAT,
-                        HUNT_PARK_LNG
-                );
-
-                makeNewMarker(hunt_park_latLng);
-
-                LatLng dan_park_latLng = new LatLng(
-                        DAN_PARK_LAT,
-                        DAN_PARK_LNG
-                );
-
-
-                LatLng capability_drv_latLng = new LatLng(
-                        CAPABILITY_DRV_LAT,
-                        CAPABILITY_DRV_LNG
-                );
-
-                makeNewMarker(capability_drv_latLng);
-
-                LatLng varsity_park_latLng = new LatLng(
-                        VARSITY_LAT,
-                        VARSITY_LNG
-                );
-
-                makeNewMarker(varsity_park_latLng);
-
-                LatLng reynolds_park_latLng = new LatLng(
-                        REYNOLDS_LAT,
-                        REYNOLDS_LNG
-                );
-
-                makeNewMarker(reynolds_park_latLng);
+                showParkingMarkers();
 
             }
             else {
@@ -180,6 +145,40 @@ public class Map extends AppCompatActivity
         }
 
         return (mMap != null);
+    }
+
+    private void showParkingMarkers(){
+        options = new ArrayList<MarkerOptions>();
+        Cursor allLots = help_db.getLots();
+
+        if(allLots.moveToFirst()){
+            do {
+                String temp_name;
+                Double temp_lat, temp_lon;
+                Integer temp_total, temp_avl;
+
+                temp_name = allLots.getString(0);
+                temp_lat = allLots.getDouble(1);
+                temp_lon = allLots.getDouble(2);
+                temp_total = allLots.getInt(3);
+                temp_avl = allLots.getInt(4);
+
+                MarkerOptions temp = new MarkerOptions()
+                        .position(new LatLng(temp_lat, temp_lon))
+                        .title(temp_name)
+                        .snippet("Status : " + temp_avl.toString() + " lots");
+                options.add(temp);
+            }
+            while(allLots.moveToNext());
+        }
+
+        if(!(options.isEmpty())){
+            Marker[] markers = new Marker[options.size()];
+            for (int i=0; i<options.size(); i++){
+                markers[i] = mMap.addMarker(options.get(i));
+                markers[i].showInfoWindow();
+            }
+        }
     }
 
     private void gotoLocation(double lat, double lng, float zoom) {
