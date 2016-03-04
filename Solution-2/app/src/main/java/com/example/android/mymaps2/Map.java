@@ -5,6 +5,7 @@
 package com.example.android.mymaps2;
 
 import android.app.Dialog;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
@@ -28,17 +29,25 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Map extends AppCompatActivity
         implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleMap.OnMarkerClickListener
 {
     UserLocationLog helper_db = new UserLocationLog(this);
+    DatabaseHelper help_db = new DatabaseHelper(this);
 
     GoogleMap mMap;
+    List<MarkerOptions> options;
     private static final int ERROR_DIALOG_REQUEST = 9001;
     private GoogleApiClient mLocationClient;
     private LocationListener mListener;
+    private static final double
+            CENT_LAT = 35.784694,
+            CENT_LONG= -78.682084;
 
     private Marker marker;
 
@@ -53,7 +62,7 @@ public class Map extends AppCompatActivity
             setContentView(R.layout.activity_map);
 
             if (initMap()) {
-                gotoLocation(35.784694, -78.682084, 14);
+                gotoLocation(CENT_LAT, CENT_LONG, 14);
 
                 mLocationClient = new GoogleApiClient.Builder(this)
                         .addApi(LocationServices.API)
@@ -63,77 +72,7 @@ public class Map extends AppCompatActivity
 
                 mLocationClient.connect();
 
-                //BEGIN:: Addition of parking spots
-                final LatLng centennial_deck_latLng = new LatLng(35.769342, -78.673975);
-                Marker centennial_deck = mMap.addMarker(new MarkerOptions()
-                        .position(centennial_deck_latLng)
-                        .title("Centennial Deck Parking Lot")
-                        .snippet("Status : 79% full"));
-                centennial_deck.showInfoWindow();
-
-
-                final LatLng dan_park_latLng = new LatLng(35.787470, -78.675503);
-                Marker dan_park = mMap.addMarker(new MarkerOptions()
-                        .position(dan_park_latLng)
-                        .title("Dan Allen Parking Lot")
-                        .snippet("Status : 81% full"));
-                dan_park.showInfoWindow();
-
-
-                final LatLng varsity_park_latLng = new LatLng(35.779665, -78.681602);
-                Marker varsity_park = mMap.addMarker(new MarkerOptions()
-                        .position(varsity_park_latLng)
-                        .title("Varsity Drive Parking Lot")
-                        .snippet("Status : 12% full"));
-                varsity_park.showInfoWindow();
-
-
-                final LatLng reynolds_park_latLng = new LatLng(35.784475, -78.668372);
-                Marker reynolds_park = mMap.addMarker(new MarkerOptions()
-                        .position(reynolds_park_latLng)
-                        .title("Reynolds Coliseum Parking Deck")
-                        .snippet("Status : 59% full"));
-                reynolds_park.showInfoWindow();
-
-
-                final LatLng capability_drv_latLng = new LatLng(35.770630, -78.681957);
-                Marker capability_drv = mMap.addMarker(new MarkerOptions()
-                        .position(capability_drv_latLng)
-                        .title("Capability Drive")
-                        .snippet("Status : 35% full"));
-                capability_drv.showInfoWindow();
-
-                final LatLng coliseum_deck_latLng = new LatLng(35.782441,-78.668237);
-                Marker coliseum_deck = mMap.addMarker(new MarkerOptions()
-                        .position(coliseum_deck_latLng)
-                        .title("Coliseum Deck Parking Lot")
-                        .snippet("Status : 08% full"));
-                coliseum_deck.showInfoWindow();
-
-
-                final LatLng bell_tower_latLng = new LatLng(35.785917, -78.663330);
-                Marker bell_tower = mMap.addMarker(new MarkerOptions()
-                        .position(bell_tower_latLng)
-                        .title("Bell Tower Parking Lot")
-                        .snippet("Status : 12% full"));
-                bell_tower.showInfoWindow();
-
-
-                final LatLng poultan_deck_latLng = new LatLng(35.769582, -78.677181);
-                Marker poultan_deck = mMap.addMarker(new MarkerOptions()
-                        .position(poultan_deck_latLng)
-                        .title("Poultan Deck Parking Lot")
-                        .snippet("Status : 28% full"));
-                poultan_deck.showInfoWindow();
-
-
-                final LatLng partners_way_latLng = new LatLng(35.774125, -78.674249);
-                Marker partners_way = mMap.addMarker(new MarkerOptions()
-                        .position(partners_way_latLng)
-                        .title("Partner's Way Deck Parking Lot")
-                        .snippet("Status : 28% full"));
-                partners_way.showInfoWindow();
-
+                showParkingMarkers();
             }
             else {
                 Toast.makeText(this, "Map not connected!", Toast.LENGTH_SHORT).show();
@@ -201,6 +140,40 @@ public class Map extends AppCompatActivity
         }
 
         return (mMap != null);
+    }
+
+    private void showParkingMarkers(){
+        options = new ArrayList<MarkerOptions>();
+        Cursor allLots = help_db.getLots();
+
+        if(allLots.moveToFirst()){
+            do {
+                String temp_name;
+                Double temp_lat, temp_lon;
+                Integer temp_total, temp_avl;
+
+                temp_name = allLots.getString(0);
+                temp_lat = allLots.getDouble(1);
+                temp_lon = allLots.getDouble(2);
+                temp_total = allLots.getInt(3);
+                temp_avl = allLots.getInt(4);
+
+                MarkerOptions temp = new MarkerOptions()
+                        .position(new LatLng(temp_lat, temp_lon))
+                        .title(temp_name)
+                        .snippet("Status : " + temp_avl.toString() + " lots");
+                options.add(temp);
+            }
+            while(allLots.moveToNext());
+        }
+
+        if(!(options.isEmpty())){
+            Marker[] markers = new Marker[options.size()];
+            for (int i=0; i<options.size(); i++){
+                markers[i] = mMap.addMarker(options.get(i));
+                markers[i].showInfoWindow();
+            }
+        }
     }
 
     private void gotoLocation(double lat, double lng, float zoom) {
