@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.android.mymaps"
+        applicationId "com.example.android.mymaps2"
         minSdkVersion 10
         targetSdkVersion 22
         versionCode 1
