@@ -2,11 +2,7 @@
 <instant-run
     api-level="1"
     format="1"
-<<<<<<< HEAD
     timestamp="1457109644755" >
-=======
-    timestamp="1457472514608" >
->>>>>>> nraina
 
     <task
         name="javac"
@@ -21,10 +17,6 @@
         name="verifier"
         duration="0" />
 
-<<<<<<< HEAD
     <build timestamp="1457109644755" />
-=======
-    <build timestamp="1457472514608" />
->>>>>>> nraina
 
 </instant-run>
