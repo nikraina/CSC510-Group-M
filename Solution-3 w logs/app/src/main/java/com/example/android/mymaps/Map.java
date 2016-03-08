@@ -136,13 +136,13 @@ public class Map extends AppCompatActivity
 
     //BEGIN :: Fix for unfortunately stopped working
     protected void onResume() {
-            // [START screen_view_hit]
-            Log.i("Map", "Setting screen name: " + "map_screen");
-            mTracker.setScreenName("Image~" + "map_screen");
-            mTracker.send(new HitBuilders.ScreenViewBuilder().build());
-            // [END screen_view_hit]
-            super.onResume();
-            initMap();
+        // [START screen_view_hit]
+        Log.i("Map", "Setting screen name: " + "map_screen");
+        mTracker.setScreenName("Image~" + "map_screen");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
+        super.onResume();
+        initMap();
     }
 
     //END :: Fix for unfortunately stopped working
