@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/Bregistervehicle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Register New Vehicle"
+            android:textColor="@color/btn_login"
+            android:textAllCaps="false"
+            android:onClick="onNewRegisteration" />
+
+        <Button
+            android:id="@+id/Beditregisteration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Edit Vehicle Registeration"
+            android:textColor="@color/btn_login"
+            android:textAllCaps="false"
+            android:onClick="onEditRegisteration" />
+
+        <Button
+            android:id="@+id/Bviewmytickets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="View My Tickets"
+            android:textColor="@color/btn_login"
+            android:textAllCaps="false"
+            android:onClick="onViewTickets" />
+
+    </LinearLayout>
+
+</LinearLayout>

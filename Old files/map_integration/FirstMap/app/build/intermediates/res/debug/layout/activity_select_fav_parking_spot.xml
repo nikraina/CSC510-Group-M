@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rg_parking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Favorite Parking Lot"
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dan Alan parking lot"
+            android:id="@+id/radioButton3"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cent Parking Lot"
+            android:id="@+id/radioButton2"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cent Lot"
+            android:id="@+id/radioButton"
+            android:checked="false" />
+    </RadioGroup>
+</LinearLayout><!-- From: file:/C:/Users/sneha/CSC510-Group-M/map_integration/FirstMap/app/src/main/res/layout/activity_select_fav_parking_spot.xml -->

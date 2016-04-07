@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Parking CSC510-3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_location">Current Location</string>
+</resources>
