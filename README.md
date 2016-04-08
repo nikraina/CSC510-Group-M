@@ -1,8 +1,6 @@
 CSC 510 Team M
-SUBMIT
-Project Description
 
-A homework submission system that is more intuitive and easier to use for both the students and the staff.
+Parking Solution Application
 
 <a href="https://github.com/nikraina/CSC510-Group-M/issues">Issues Page</a> 
 
@@ -10,8 +8,7 @@ A homework submission system that is more intuitive and easier to use for both t
 
 <a href="https://github.com/nikraina/CSC510-Group-M/pulse">Contributors Page</a>
 
-
-Telemetry: The 3 solutions presented by us are as follows:
+The 3 solutions presented by us are as follows:
 
 1.<a href="https://github.com/nikraina/CSC510-Group-M/tree/master/Solution-1">Standalone NCSU Parking App</a>- A standalone Android application for any user to check the number of free parking spots at NCSU. This solution is free from any user login and db exchnages with respect to the user.
 
@@ -20,4 +17,6 @@ Telemetry: The 3 solutions presented by us are as follows:
 3.<a href="https://github.com/nikraina/CSC510-Group-M/tree/master/Solution-3">Parking Management System</a>- A central hub where users can keep track of their fines/tickets and also parking permits.
 This also allows checking free parking spots.
 
-Demo Slot Timing: Wednesday, March 2rd, 12:30 pm
+<a href="https://github.com/nikraina/CSC510-Group-M/blob/master/Slides.pdf">Slides</a>
+
+<a href="https://github.com/nikraina/CSC510-Group-M/blob/master/Report.pdf">Report</a>
