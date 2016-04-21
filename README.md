@@ -17,6 +17,6 @@ The 3 solutions presented by us are as follows:
 3.<a href="https://github.com/nikraina/CSC510-Group-M/tree/master/Solution-3">Parking Management System</a>- A central hub where users can keep track of their fines/tickets and also parking permits.
 This also allows checking free parking spots.
 
-<a href="https://github.com/nikraina/CSC510-Group-M/blob/master/SlidePack.pptx">Slides</a>
+<a href="https://github.com/nikraina/CSC510-Group-M/blob/master/Slides.pdf">Slides</a>
 
 <a href="https://github.com/nikraina/CSC510-Group-M/blob/master/Report.pdf">Report</a>
